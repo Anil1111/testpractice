@@ -20,9 +20,7 @@ namespace TestNinja.UnitTests {
             var result = reservation.CanBeCancelledBy(new User { IsAdmin = true });
 
             // 3. Assert: Verify the result is correct
-            Assert.IsTrue(result);
-            Assert.That(result, Is.True);
-            Assert.That(result == true);
+            Assert.That(result, Is.True);   // This reads like plain English (which is better)
         }
 
         [Test]
@@ -32,7 +30,7 @@ namespace TestNinja.UnitTests {
 
             var result = reservation.CanBeCancelledBy(user);
 
-            Assert.IsTrue(result);
+            Assert.That(result, Is.True);
         }
 
         [Test]
@@ -42,7 +40,7 @@ namespace TestNinja.UnitTests {
 
             var result = reservation.CanBeCancelledBy(user);
 
-            Assert.IsFalse(result);
+            Assert.That(result, Is.False);
         }
     }
 }
