@@ -10,6 +10,7 @@ namespace TestNinja.UnitTests {
         // 1) Specifies the name of the method on the test_
         // 2) Scenario of the testing_
         // 3) Expected behavior
+        // -> Thus, these tests act as the documentation about the source code.
         public void CanBeCancelledBy_AdminCancelling_ReturnsTrue() {
             /* Tripple A convention */
             // 1. Arrange: Initialize the objects
