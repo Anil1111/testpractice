@@ -6,7 +6,11 @@ namespace TestNinja.UnitTests {
     [TestClass]
     public class ReservationTests {
         [TestMethod]
-        public void CanBeCancelledBy_Scenario_ExpectedBehavior() {
+        // 1) Specifies the name of the method on the test_
+        // 2) Scenario of our testing_
+        // 3) Expected behavior
+        public void CanBeCancelledBy_UserIsAdmin_ReturnsTrue() {
+
         }
     }
 }
