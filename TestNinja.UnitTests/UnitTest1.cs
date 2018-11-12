@@ -21,5 +21,26 @@ namespace TestNinja.UnitTests {
             // 3. Assert: Verify the result is correct
             Assert.IsTrue(result);
         }
+
+        [TestMethod]
+        public void CanBeCancelledBy_UserMadeBy_ReturnsTrue() {
+
+            var user = new User() { IsAdmin = false };
+            var reservation = new Reservation { MadeBy = user };
+
+            var result = reservation.CanBeCancelledBy(user);
+
+            Assert.IsTrue(result);
+        }
+
+        [TestMethod]
+        public void CanBeCancelledBy_UserNotAdminNorMadeBy_ReturnsFalse() {
+            var user = new User() { IsAdmin = false };
+            var reservation = new Reservation();
+
+            var result = reservation.CanBeCancelledBy(user);
+
+            Assert.IsFalse(result);
+        }
     }
 }
