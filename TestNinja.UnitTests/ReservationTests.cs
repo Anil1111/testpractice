@@ -23,9 +23,9 @@ namespace TestNinja.UnitTests {
         }
 
         [TestMethod]
-        public void CanBeCancelledBy_UserMadeBy_ReturnsTrue() {
+        public void CanBeCancelledBy_SameUserCancellingTheReservation_ReturnsTrue() {
 
-            var user = new User() { IsAdmin = false };
+            var user = new User();
             var reservation = new Reservation { MadeBy = user };
 
             var result = reservation.CanBeCancelledBy(user);
