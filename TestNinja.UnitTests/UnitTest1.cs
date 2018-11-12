@@ -19,7 +19,7 @@ namespace TestNinja.UnitTests {
             var result = reservation.CanBeCancelledBy(new User { IsAdmin = true });
 
             // 3. Assert: Verify the result is correct
-            Assert.AreEqual(result, true);
+            Assert.IsTrue(result);
         }
     }
 }
