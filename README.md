@@ -7,8 +7,8 @@
 
 # How to install NUnit packages on VisualStudio
 1. Open Package Manager Console
-1. Install-Package NUnit -Version 3.8.1
-1. Install-Package NUnit3TestAdapter -Version 3.8.0
+1. `Install-Package NUnit -Version 3.8.1`
+1. `Install-Package NUnit3TestAdapter -Version 3.8.0`
 
 # The Foundation of TDD(Test-driven Development)
 1. Write a failing test.
