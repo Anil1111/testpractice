@@ -59,6 +59,9 @@ namespace TestNinja.UnitTests {
             // EquivalentTo() checks the existence of each of the items,
             // and doesn't care about the order.
             Assert.That(result, Is.EquivalentTo(new[] { 1, 3, 5 }));
+
+            Assert.That(result, Is.Ordered);
+            Assert.That(result, Is.Unique);
         }
     }
 }
