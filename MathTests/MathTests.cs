@@ -25,6 +25,9 @@ namespace MathTests {
             // 2. Act
             var result = _math.Add(1, 2);
 
+            // Example of NOT trustworthy test codes (Do NOT test like this!)
+            Assert.That(_math, Is.Not.Null);
+
             // 3. Assert
             Assert.That(result, Is.EqualTo(3));
         }
