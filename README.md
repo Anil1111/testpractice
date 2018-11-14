@@ -26,7 +26,7 @@ Notetaking and pracice what I learned from [Mosh Hamedani's Unit Testing for C# 
 1. First-class citizens
 1. Clean, readable and maintainable (Less than 10 lines of codes)
 1. No logic
-1. Isolated
+1. Isolated (as if it's the only test in the world)
 1. Not too specific/general
 
 # Two Types of Functions
