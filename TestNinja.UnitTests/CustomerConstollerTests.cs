@@ -8,11 +8,6 @@ namespace TestNinja.UnitTests {
     /// </summary>
     [TestFixture]
     public class CustomerConstollerTests {
-        public CustomerConstollerTests() {
-            //
-            // TODO: Add constructor logic here
-            //
-        }
 
         private CustomerController _controller;
 
