@@ -62,6 +62,8 @@ namespace TestNinja.UnitTests {
 
             Assert.That(result, Is.Ordered);
             Assert.That(result, Is.Unique);
+
+            // So, just make your tests not too general, nor too specific.
         }
     }
 }
