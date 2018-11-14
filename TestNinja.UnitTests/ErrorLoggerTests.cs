@@ -24,5 +24,18 @@ namespace TestNinja.UnitTests {
 
             Assert.That(logger.LastError, Is.EqualTo("a"));
         }
+
+        [Test]
+        [TestCase(null)]
+        [TestCase("")]
+        [TestCase(" ")]
+        public void Log_InvalidError_ThrowArgumentNullException(string error) {
+
+            Assert.That(() => logger.Log(error), Throws.ArgumentNullException);
+
+            // This Exception type check can be helpful.
+            //Assert.That(() => logger.Log(error), Throws.Exception.TypeOf<DivideByZeroException>());
+        }
+
     }
 }
