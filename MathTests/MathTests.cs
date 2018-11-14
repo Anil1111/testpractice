@@ -18,7 +18,7 @@ namespace MathTests {
 
         [Test]
         // Disabling the test is the better approach than commenting it out or deleting it.
-        [Ignore("Because I wanted to!")]
+        //[Ignore("Because I wanted to!")]
         public void Add_WhenCalled_ReturnTheSumOfArguments() {
             /* Tripple A convention */
             // 1. Arrage
