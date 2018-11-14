@@ -37,4 +37,5 @@
 
 So, only test your codes.
 
-
+# Test methods naming convention
+- [MethodName]_[Scenario]_[ExpectedBehaviour]
