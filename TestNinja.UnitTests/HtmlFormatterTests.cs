@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using TestNinja.Fundamentals;
 
 namespace TestNinja.UnitTests {
     /// <summary>
@@ -13,10 +14,14 @@ namespace TestNinja.UnitTests {
         }
 
         [Test]
-        public void TestMethod1() {
-            //
-            // TODO: Add test logic here
-            //
+        public void FormatAsBold_WhenCalled_ShouldEncloseTheStringWithStrongElements() {
+            var htmlFormatter = new HtmlFormatter();
+
+            var src = "rabbit";
+            var result = htmlFormatter.FormatAsBold(src);
+
+            Assert.That(result, Is.EqualTo($"<strong>{src}</strong>"));
+
         }
     }
 }
