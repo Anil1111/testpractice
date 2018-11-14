@@ -29,6 +29,7 @@ namespace MathTests {
             Assert.That(_math, Is.Not.Null);
 
             // 3. Assert
+            // Test the right thing like this trustworthy test.
             Assert.That(result, Is.EqualTo(3));
         }
 
