@@ -20,8 +20,16 @@ namespace TestNinja.UnitTests {
             var src = "abc";
             var result = htmlFormatter.FormatAsBold(src);
 
-            Assert.That(result, Is.EqualTo($"<strong>{src}</strong>"));
+            // Too specific, but better than too general.
+            Assert.That(result, Is.EqualTo("<strong>abc</strong>").IgnoreCase);
 
+            // Too general.
+            Assert.That(result, Does.StartWith("<strong>").IgnoreCase);
+            Assert.That(result, Does.EndWith("</strong>"));
+            Assert.That(result, Does.Contain("abc"));
+
+            // My solution.
+            Assert.That(result, Is.EqualTo($"<strong>{src}</strong>"));
         }
     }
 }
