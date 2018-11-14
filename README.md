@@ -1,5 +1,7 @@
 # Test Practice
 
+Notetaking and pracice what I learned from [Mosh Hamedani's Unit Testing for C# Developers](https://www.udemy.com/unit-testing-csharp/).
+
 # Three types of tests
 1. Unit test
 1. Integration test
