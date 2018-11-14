@@ -27,3 +27,14 @@
 1. Isolated
 1. Not too specific/general
 
+# Two Types of Functions
+1. Query
+1. Command
+
+# Don't Test
+1. Language features
+1. 3rd-party code
+
+So, only test your codes.
+
+
