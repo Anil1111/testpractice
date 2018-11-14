@@ -17,6 +17,7 @@ namespace MathTests {
 
 
         [Test]
+        [Ignore("Because I wanted to!")]
         public void Add_WhenCalled_ReturnTheSumOfArguments() {
             /* Tripple A convention */
             // 1. Arrage
@@ -31,8 +32,8 @@ namespace MathTests {
         // If there's none, "No arguments were provided" occurs.
         [Test]
         [TestCase(2, 1, 2)]
-        [TestCase(1, 2, 2)]     // These two might not work on VisualStudio I guess.
-        [TestCase(1, 1, 2)]
+        [TestCase(1, 2, 2)]
+        [TestCase(1, 1, 1)]
         public void Max_WhenCalled_ReturnsTheGreaterArgument(int a, int b, int expectedResult) {
             var result = _math.Max(a, b);
             Assert.That(result, Is.EqualTo(expectedResult));
