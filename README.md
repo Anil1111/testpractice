@@ -1,4 +1,4 @@
-# TestNinja
+# Test Practice
 
 # Three types of tests
 1. Unit test
