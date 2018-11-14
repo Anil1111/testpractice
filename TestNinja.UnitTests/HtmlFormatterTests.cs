@@ -17,7 +17,7 @@ namespace TestNinja.UnitTests {
         public void FormatAsBold_WhenCalled_ShouldEncloseTheStringWithStrongElements() {
             var htmlFormatter = new HtmlFormatter();
 
-            var src = "rabbit";
+            var src = "abc";
             var result = htmlFormatter.FormatAsBold(src);
 
             Assert.That(result, Is.EqualTo($"<strong>{src}</strong>"));
