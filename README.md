@@ -39,3 +39,11 @@ So, only test your codes.
 
 # Test methods naming convention
 - [MethodName]_[Scenario]_[ExpectedBehaviour]
+
+# Cost of a Software Bug
+1. Found in **Requirements Gathering** is $100
+1. Found in **QA Testing** is $1,500
+1. Found in **Production** is $10,000
+
+The later we catch bugs, the more costly it gets to fix them.
+
