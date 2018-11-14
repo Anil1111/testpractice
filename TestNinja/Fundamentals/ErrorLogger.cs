@@ -7,6 +7,8 @@ namespace TestNinja.Fundamentals {
 
         public event EventHandler<Guid> ErrorLogged;
 
+        private Guid _errorId;
+
         public void Log(string error) {
             if (String.IsNullOrWhiteSpace(error)) {
                 // 1. Check if it's null
@@ -20,11 +22,15 @@ namespace TestNinja.Fundamentals {
 
             // Write the log to a storage
             // ...
-            OnErrorLogged(Guid.NewGuid());
+            _errorId = Guid.NewGuid();
+            OnErrorLogged();
         }
 
-        protected virtual void OnErrorLogged(Guid errorId) {
-            ErrorLogged?.Invoke(this, errorId);
+        public virtual void OnErrorLogged() {
+            // This is one of the implementation details;
+            // This MUST NOT be public!
+            //protected virtual void OnErrorLogged(Guid errorId) {
+            ErrorLogged?.Invoke(this, _errorId);
         }
     }
 }

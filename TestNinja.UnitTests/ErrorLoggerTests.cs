@@ -51,5 +51,17 @@ namespace TestNinja.UnitTests {
 
             Assert.That(id, Is.Not.EqualTo(Guid.Empty));
         }
+
+        //[Test]
+        //[Ignore("Don't test the implementation details!")]
+        //public void OnErrorLogged_WhenCalled_RaiseEvent() {
+
+        //    // As you refactor the implementation details,
+        //    // It broke up all the tests about them.
+        //    // So, DO NOT test the implementation details!
+        //    //logger.OnErrorLogged(Guid.NewGuid());
+
+        //    Assert.That(true);
+        //}
     }
 }
