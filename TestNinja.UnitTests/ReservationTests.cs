@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace TestNinja.Fundamentals.UnitTests {
+namespace TestPractice.Fundamentals.UnitTests {
     // TestClass and TestMethod attributes belongs to MSTestFramework.
     [TestFixture]
     public class ReservationTests {

@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity;
 
-namespace TestNinja.Mocking
+namespace TestPractice.Mocking
 {
     public class EmployeeController
     {

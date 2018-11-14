@@ -1,4 +1,4 @@
-﻿namespace TestNinja.Fundamentals {
+﻿namespace TestPractice.Fundamentals {
     public class FizzBuzz {
         public static string GetOutput(int number) {
             // If the number is divisible by 3 or 5

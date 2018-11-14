@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace TestNinja.Fundamentals.UnitTests {
+namespace TestPractice.Fundamentals.UnitTests {
     /// <summary>
     /// Summary description for HtmlFormatterTests
     /// </summary>

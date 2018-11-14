@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 using NUnit.Framework.Internal;
 
-namespace TestNinja.Fundamentals.UnitTests {
+namespace TestPractice.Fundamentals.UnitTests {
     /// <summary>
     /// Summary description for CustomerConstollerTests
     /// </summary>

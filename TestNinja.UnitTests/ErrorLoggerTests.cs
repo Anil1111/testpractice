@@ -2,7 +2,7 @@
 using NUnit.Framework.Internal;
 using System;
 
-namespace TestNinja.Fundamentals.UnitTests {
+namespace TestPractice.Fundamentals.UnitTests {
     /// <summary>
     /// Summary description for ErrorLoggerTests
     /// </summary>

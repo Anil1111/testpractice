@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace TestNinja.Mocking
+namespace TestPractice.Mocking
 {
     public static class BookingHelper
     {

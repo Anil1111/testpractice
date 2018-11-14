@@ -1,4 +1,4 @@
-﻿namespace TestNinja.Mocking
+﻿namespace TestPractice.Mocking
 {
     public class OrderService
     {

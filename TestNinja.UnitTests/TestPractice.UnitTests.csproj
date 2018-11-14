@@ -65,9 +65,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TestNinja\TestNinja.csproj">
+    <ProjectReference Include="..\TestNinja\TestPractice.csproj">
       <Project>{7328740E-4B78-464F-8352-65D887F2145F}</Project>
-      <Name>TestNinja</Name>
+      <Name>TestPractice</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

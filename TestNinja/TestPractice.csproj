@@ -9,8 +9,8 @@
     <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TestNinja</RootNamespace>
-    <AssemblyName>TestNinja</AssemblyName>
+    <RootNamespace>TestPractice</RootNamespace>
+    <AssemblyName>TestPractice</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>

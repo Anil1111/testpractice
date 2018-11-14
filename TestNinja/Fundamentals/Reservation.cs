@@ -1,4 +1,4 @@
-﻿namespace TestNinja.Fundamentals {
+﻿namespace TestPractice.Fundamentals {
     public class Reservation {
         public User MadeBy { get; set; }
 
