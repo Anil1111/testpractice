@@ -26,7 +26,7 @@ namespace TestNinja.Fundamentals {
             OnErrorLogged();
         }
 
-        public virtual void OnErrorLogged() {
+        protected virtual void OnErrorLogged() {
             // This is one of the implementation details;
             // This MUST NOT be public!
             //protected virtual void OnErrorLogged(Guid errorId) {
