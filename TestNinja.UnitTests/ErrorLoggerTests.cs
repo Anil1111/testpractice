@@ -32,6 +32,7 @@ namespace TestNinja.UnitTests {
         [TestCase(" ")]
         public void Log_InvalidError_ThrowArgumentNullException(string error) {
 
+            // Learn more about C#'s lambda expression
             Assert.That(() => logger.Log(error), Throws.ArgumentNullException);
 
             // This Exception type check can be helpful.
@@ -42,6 +43,8 @@ namespace TestNinja.UnitTests {
         public void Log_ValidError_RaiseErrorLoggedEvent() {
 
             var id = Guid.Empty;
+
+            // Learn more about C#'s delegate and event
             logger.ErrorLogged += (sender, guid) => { id = guid; };
 
             logger.Log("a");
