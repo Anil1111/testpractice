@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestNinja", "TestNinja\Test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestNinja.UnitTests", "TestNinja.UnitTests\TestNinja.UnitTests.csproj", "{801A43CC-5164-4DAD-8A39-0EE5B3B35A01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathTests", "MathTests\MathTests.csproj", "{B9AE8DB3-1744-4717-AE35-6AA81AAEC90B}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{801A43CC-5164-4DAD-8A39-0EE5B3B35A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{801A43CC-5164-4DAD-8A39-0EE5B3B35A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{801A43CC-5164-4DAD-8A39-0EE5B3B35A01}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B9AE8DB3-1744-4717-AE35-6AA81AAEC90B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B9AE8DB3-1744-4717-AE35-6AA81AAEC90B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B9AE8DB3-1744-4717-AE35-6AA81AAEC90B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B9AE8DB3-1744-4717-AE35-6AA81AAEC90B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
