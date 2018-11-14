@@ -4,14 +4,24 @@ using TestNinja.Fundamentals;
 namespace MathTests {
     [TestFixture]
     public class MathTests {
+
+        private Math _math;
+
+        // Set Up
+        [SetUp]
+        public void SetUp() {
+            _math = new Math();
+        }
+
+        // Tear Down
+
+
         [Test]
         public void Add_WhenCalled_ReturnTheSumOfArguments() {
             /* Tripple A convention */
             // 1. Arrage
-            var m = new Math();
-
             // 2. Act
-            var result = m.Add(1, 2);
+            var result = _math.Add(1, 2);
 
             // 3. Assert
             Assert.That(result, Is.EqualTo(3));
@@ -20,22 +30,19 @@ namespace MathTests {
         [Test]
         public void Max_FirstArgumentIsGreater_ReturnsTheFirstArgument() {
             // In each test, you should start with a fresh, clean state; new object!
-            var m = new Math();
-            var result = m.Max(2, 1);
+            var result = _math.Max(2, 1);
             Assert.That(result, Is.EqualTo(2));
         }
 
         [Test]
         public void Max_SecondArgumentIsGreater_ReturnsTheSecondArgument() {
-            var m = new Math();
-            var result = m.Max(1, 2);
+            var result = _math.Max(1, 2);
             Assert.That(result, Is.EqualTo(2));
         }
 
         [Test]
         public void Max_ArgumentsAreEqual_ReturnsTheSameArgument() {
-            var m = new Math();
-            var result = m.Max(1, 1);
+            var result = _math.Max(1, 1);
             Assert.That(result, Is.EqualTo(1));
         }
     }
